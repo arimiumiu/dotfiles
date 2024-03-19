@@ -1,0 +1,61 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "zenMode.hideLineNumbers": false,
+    "editor.lineNumbers": "relative",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "e"],
+            "commands": [
+                {
+                    "command": "workbench.action.toggleSidebarVisibility",
+                    "when": "editorTextFocus"
+                }
+            ],
+        },
+
+        {
+            "before": ["<leader>", "t"],
+            "commands": [
+                {
+                    "command": "workbench.action.togglePanel",
+                    "when": "editorTextFocus"
+                }
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": ["<leader>", "e"],
+            "commands": [
+                {
+                    "command": "workbench.action.toggleSidebarVisibility",
+                    "when": "editorTextFocus"
+                }
+            ]
+        },
+
+        {
+            "before": ["<leader>", "t"],
+            "commands": [
+                {
+                    "command": "workbench.action.togglePanel",
+                    "when": "editorTextFocus"
+                }
+            ]
+        }
+    ],
+    "window.menuBarVisibility": "toggle",
+    "terminal.integrated.commandsToSkipShell": [
+        "github.copilot.terminal.suggestCommand",
+        "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "julia.enableTelemetry": false,
+    "[julia]": {
+        "editor.defaultFormatter": "julialang.language-julia"
+    },
+    "workbench.activityBar.location": "top"
+}
